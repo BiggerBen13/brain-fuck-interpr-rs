@@ -1,0 +1,15 @@
+[package]
+name = "brain-fuck"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "brainfuck_rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "brainfuck_rs"
+path = "src/bin.rs"
+
+[dependencies]
+nom = "8.0.0"
